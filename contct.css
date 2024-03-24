@@ -1,0 +1,166 @@
+
+
+.new_btn_absolute{
+    height: 1px;
+    border-radius: 6px;
+    width: 117px;
+    transition: height 0.1s linear;
+    background-color:#F3275A;
+    border: none;
+    margin: 0px;
+         
+}
+.new_btn_absolute:hover{
+    height: 80px;
+}
+.btn_text{
+    padding-top: 25px;
+    font-size: 12px;
+    top: -1.5px;
+    right: -2px;
+    border-radius: 7px;
+    border: 4px solid #F3275A;
+    width: 120px;
+    height: 80px;
+    text-decoration: none;
+}
+.btn_text:hover{
+    color: white;
+}
+
+.n_btn {
+    color: #222;
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    display: inline-block;
+    border: 0.5px solid #222;
+    background-color: transparent;
+    margin-bottom: 1rem;
+  }
+.n-hover-fill-bottom{
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.n-hover-fill-bottom::before{
+  position: absolute;
+  content: "";
+  background-color: #222;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: all 0.1s ease-in-out;
+  height: 0;
+  bottom: auto;
+
+}
+.n-hover-fill-bottom:hover{
+  color: #fff;
+}
+.n-hover-fill-bottom:hover:before{
+  z-index: -1;
+}
+.n-hover-fill-bottom:hover::before {
+  height: 100%;
+}
+
+.n_btn2 {
+    color: #222;
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    display: inline-block;
+    border: 0.5px solid #F3275A !important;
+    background-color: transparent;
+    margin-bottom: 1rem;
+  }
+.n-hover-fill-bottom2{
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.n-hover-fill-bottom2::before{
+  position: absolute;
+  content: "";
+  background-color: #F3275A;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: all 0.1s ease-in-out;
+  height: 0;
+  bottom: auto;
+
+}
+.n-hover-fill-bottom2:hover{
+  color: #fff;
+}
+.n-hover-fill-bottom2:hover:before{
+  z-index: -1;
+}
+.n-hover-fill-bottom2:hover::before {
+  height: 100%;
+}
+.hover-it{
+        opacity:0.6;
+}
+.hover-it:hover{
+        opacity:1;
+}
+.btn-send{
+  border: 2px solid #F3275A;
+  background-color: white;
+  
+}
+.btn-send:hover{
+  background-color: #F3275A;
+  color: white;
+
+}
+.hover-it2{
+  background-color: #F3275A;
+   border-radius:100%;
+}
+.hover-it2:hover{
+  background-color: #f3275ad5  !important;
+}
+.icons{
+  transition: all 2s ease-in-out 3s;
+}
+.icons:hover{
+  transform: scale(1.3);
+}
+
+.social-c{
+    width:35px; 
+    height:35px;
+    background:#f3275a;
+     border-radius: 50%;
+     color: white;
+    transition: 0.3s;
+}
+
+.social-c:hover{
+    background:white;
+    color: #f3275a;
+    border: 1px solid #f3275a;
+}
+.social3{
+    width:45px; 
+    height:45px;
+    background:#fff;
+     border-radius: 50%;
+     font-size:27px;
+     color: #f3275a;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid #f3275a;
+
+}
+
+.social3:hover{
+    background:#f3275a;
+    color: #fff;
+}

@@ -1,0 +1,50 @@
+@media(min-width:200px){
+    .matlab-img{
+        width: 350px;
+        height: 300px;
+    }
+}
+@media(min-width:450px){
+    .matlab-img{
+        width: 400px;
+        height: 350px;
+    }
+}
+@media(min-width:550px){
+    .matlab-img{
+        width: 450px;
+        height: 400px;
+    }
+}
+@media(min-width:650px){
+    .matlab-img{
+        width: 500px;
+        height: 450px;
+    }
+}
+@media(min-width:720px){
+    .matlab-img{
+        width: 600px;
+        height: 500px;
+    }
+}
+@media(min-width:800px){
+    .matlab-img{
+        width: 700px;
+        height: 550px;
+    }
+}
+@media(min-width:990px){
+    .matlab-img{
+        width: 100%;
+        height: 600px;
+    }
+}
+@media(min-width:1100px){
+   
+}
+
+
+
+
+

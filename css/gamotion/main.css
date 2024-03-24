@@ -1,0 +1,90 @@
+body {
+  font-family: IRANYekan-L;
+  font-weight: 600;
+}
+.ac-checkmark li {
+  width: 100%;
+}
+.ac-checkmark li label {
+  width: 100%;
+}
+.ac-custom {
+  zoom: 0.7;
+}
+/* .tree-gif {
+  max-width: 500px;
+  height: 415px;
+  width: 100%;
+  margin-top: 60px;
+} */
+
+.material-icons {
+  font-weight: bold;
+  font-size: 4rem !important;
+}
+.our-service {
+  zoom: 0.7;
+}
+.gamotion-container {
+  position: relative;
+  overflow: hidden;
+ 
+}
+.gamotion-container img {
+  position: absolute;
+  top: -620px;
+}
+/* theme */
+@font-face {
+  font-family: Yekan;
+  src: url(../../font/iranyekan/Yekan.eot?#iefix) format("embedded-opentype"), url(../../font/iranyekan/Yekan.woff) format("woff"), url(../../font/iranyekan/Yekan.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: IRANYekan-B;
+  font-style: normal;
+  font-weight: 600;
+  src: url(../../font/iranyekan/iranyekanwebbold.eot);
+  src: url(../../font/iranyekan/iranyekanwebbold.eot?#iefix) format("embedded-opentype"), url(../../font/iranyekan/iranyekanwebbold.woff2) format("woff2"), url(../../font/iranyekan/iranyekanwebbold.woff) format("woff"), url(../../font/iranyekan/iranyekanwebbold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: IRANYekan-L;
+  font-style: normal;
+  font-weight: 300;
+  src: url(../../font/iranyekan/iranyekanweblight.eot);
+  src: url(../../font/iranyekan/iranyekanweblight.eot?#iefix) format("embedded-opentype"), url(../../font/iranyekan/iranyekanweblight.woff2) format("woff2"), url(../../font/iranyekan/iranyekanweblight.woff) format("woff"), url(../../font/iranyekan/iranyekanweblight.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: IRANYekan;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../../font/iranyekan/iranyekanwebregular.eot);
+  src: url(../../font/iranyekan/iranyekanwebregular.eot?#iefix) format("embedded-opentype"), url(../../font/iranyekan/iranyekanwebregular.woff2) format("woff2"), url(../../font/iranyekan/iranyekanwebregular.woff) format("woff"), url(../../font/iranyekan/iranyekanwebregular.ttf) format("truetype");
+}
+.underline-red {
+  position: relative;
+}
+
+.underline-red::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 5px;
+
+  background-color: #f3275a;
+  transition: width 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .underline-red:hover::before {
+    right: 0;
+    left: auto;
+    width: 100%;
+  }
+}
